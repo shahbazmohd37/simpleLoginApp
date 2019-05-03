@@ -1,0 +1,45 @@
+.profile {
+    .details {
+        div {
+        background: white;
+        padding: 0.5rem 1rem 1rem 1.5rem;
+        /* text-align: center; */
+        /* font-weight: 600; */
+        font-size: 0.8rem;
+        color: grey;
+        margin-bottom: 0.6rem;
+        p {
+            margin: 0;
+        }
+        .name {
+            font-weight: bold;
+            font-size: 1.2rem;
+            color: black;
+        }
+        .editMode {
+            font-weight: bold;
+            display: inline-block;
+            float: right;
+            margin-right: 1rem;
+            cursor: pointer;
+        }
+    }
+    }
+    .title {
+    background: white;
+    text-align: center;
+    padding: 0.4rem 1rem 1rem;
+    font-weight: 600;
+    margin-bottom: 0.6rem;
+    box-shadow: 0.08rem 0.06rem 0.6rem 0.1rem;
+    }
+    .logout {
+    text-align: center;
+    position: relative;
+    top: 33%;
+    color: red;
+    width: fit-content;
+    left: 50%;
+    cursor: pointer;
+    }
+}
